@@ -21,7 +21,8 @@ HTML_TEMPLATE = '''
     <title>C Compiler Server</title>
     <style>
         body {
-            background-color: yellow;
+            background-color: black;
+            color: white;
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 50px;
@@ -44,7 +45,8 @@ HTML_Dowload = '''
     <title>C Compiler Server</title>
     <style>
         body {
-            background-color: yellow;
+            background-color: black;
+            color: white;
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 50px;
@@ -70,7 +72,8 @@ HTML_error = '''
     <title>C Compiler Server</title>
     <style>
         body {
-            background-color: yellow;
+            background-color: black;
+            color: white;
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 50px;
