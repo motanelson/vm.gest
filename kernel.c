@@ -958,7 +958,7 @@ void window3d(int x, int y, int z,int xx,int yy,int zz) {
     int screen_y = (y * 256) / (z + 256) + SCREEN_HEIGHT / 2;
     int screen_x2 = (xx*256)  / (zz + 256) + SCREEN_WIDTH / 2;
     int screen_y2 = (yy * 256) / (zz + 256) + SCREEN_HEIGHT / 2;
-    draw_line(screen_x, screen_y,screen_x2, screen_y2,0); // Branco
+    draw_line(screen_x, screen_y,screen_x2, screen_y2,15); // Branco
 }
 
 
@@ -1022,7 +1022,7 @@ void kernel_main()
 		int y=100;
                 int a=0;
 		unsigned char* addr;
-		cls(14);
+		cls(0);
 		NULL=0;
 		int t=0;
                 memoryStart = (unsigned char *)0x200000;
@@ -1034,7 +1034,7 @@ void kernel_main()
                     sleeps(1);
                     n=getKeys();
                     if(n==1)t=0;
-                    cls(14);
+                    cls(0);
 		}		
 		for(;;)
                 {   
